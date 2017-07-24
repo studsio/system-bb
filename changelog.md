@@ -6,6 +6,7 @@
 - Bump kernel from 4.4.9 to 4.4.43
 - Bump tool change to gcc5 version
 - Support for BBG Wireless
+- Bump kernel from 4.4.43 to 4.4.60
 
 #### Version 1.0
 Duplicate nerves-system-bbb images

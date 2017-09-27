@@ -13,9 +13,9 @@
 
 echo "Running Nerves U-Boot script"
 
-# Kernel arguments and arguments to erlinit are passed here
-# The erlinit arguments can just be tacked on to the end.
-# For example, add "-v" to the end to put erlinit into verbose
+# Kernel arguments and arguments to faninit are passed here
+# The faninit arguments can just be tacked on to the end.
+# For example, add "-v" to the end to put faninit into verbose
 # mode.
 
 # When debugging, create a uEnv.txt file in the BOOT partition
@@ -25,7 +25,7 @@ echo "Running Nerves U-Boot script"
 
 env set optargs "quiet bone_capemgr.disable_partno=BB-BONELT-HDMI,BB-BONELT-HDMIN"
 
-# Allow the user to override the kernel/erlinit arguments
+# Allow the user to override the kernel/faninit arguments
 # via a "uEnv.txt" file in the FAT partition.
 if load mmc ${mmcdev}:1 ${loadaddr} uEnv.txt; then
     echo "uEnv.txt found. Overriding environment."

@@ -1,11 +1,10 @@
 # Changelog
 
 #### Version 1.3 (working)
-* Firmware updates verify that they're updating the right target. If the target
-  doesn't say that it's an `bbb` through the firmware metadata, the update will
-  fail.
-* Added meta-misc and meta-vcs-identifier to the `fwup.conf` metadata for use
-  by users and for the regression test framework
+* Firmware updates verify that target. If the target != `bbb` update fails
+* Added meta-misc and meta-vcs-identifier to the `fwup.conf`
+* Nerves toolchain v0.11.0
+* Buildroot 2017.08
 
 #### Version 1.2 (29-Nov-2017)
 - Remove Erlang/erlinit/Exilir depends

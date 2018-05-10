@@ -1,6 +1,11 @@
 # Changelog
 
 #### Version 1.3 (working)
+* Firmware updates verify that they're updating the right target. If the target
+  doesn't say that it's an `bbb` through the firmware metadata, the update will
+  fail.
+* Added meta-misc and meta-vcs-identifier to the `fwup.conf` metadata for use
+  by users and for the regression test framework
 
 #### Version 1.2 (29-Nov-2017)
 - Remove Erlang/erlinit/Exilir depends

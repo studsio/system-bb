@@ -5,6 +5,8 @@
 * Added meta-misc and meta-vcs-identifier to the `fwup.conf`
 * Nerves toolchain v0.11.0
 * Buildroot 2017.08
+* Add global patch directory
+* nbtty 0.3.0
 
 #### Version 1.2 (29-Nov-2017)
 - Remove Erlang/erlinit/Exilir depends

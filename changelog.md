@@ -5,6 +5,8 @@
 * Added meta-misc and meta-vcs-identifier to the `fwup.conf`
 * Nerves toolchain v0.11.0
 * Buildroot 2017.08
+* u-boot 2017.09
+* Linux 4.4.91 w/ RCN's patches
 * Add global patch directory
 * nbtty 0.3.0
 

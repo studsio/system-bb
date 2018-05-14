@@ -3,12 +3,14 @@
 #### Version 1.3 (working)
 * Firmware updates verify that target. If the target != `bbb` update fails
 * Added meta-misc and meta-vcs-identifier to the `fwup.conf`
-* Nerves toolchain v0.11.0
-* Buildroot 2017.08
+* Nerves toolchain v0.12.1
+* Buildroot 2017.11
 * u-boot 2017.09
 * Linux 4.4.91 w/ RCN's patches
 * Add global patch directory
 * nbtty 0.3.0
+* Support for pocketbeagle
+* Clear out the wl18xx MAC address field to use TI default MAC address
 
 #### Version 1.2 (29-Nov-2017)
 - Remove Erlang/erlinit/Exilir depends

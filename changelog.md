@@ -11,6 +11,7 @@
 * nbtty 0.3.0
 * Support for pocketbeagle
 * Clear out the wl18xx MAC address field to use TI default MAC address
+* Support for reverting firmware.
 
 #### Version 1.2 (29-Nov-2017)
 - Remove Erlang/erlinit/Exilir depends

@@ -1,7 +1,8 @@
 # Changelog
 
 #### Version 1.3 (working)
-* Firmware updates verify that target. If the target != `bbb` update fails
+* Convert system name to `bb` to reflect broader BeagleBone support
+* Firmware updates verify that target. If the target != `bb` update fails
 * Added meta-misc and meta-vcs-identifier to the `fwup.conf`
 * Nerves toolchain v0.12.1
 * Buildroot 2017.11

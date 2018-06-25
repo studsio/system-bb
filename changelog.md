@@ -1,6 +1,6 @@
 # Changelog
 
-#### Version 1.3 (working)
+#### Version 1.3 (25-Jun-2018)
 * Convert system name to `bb` to reflect broader BeagleBone support
 * Firmware updates verify that target. If the target != `bb` update fails
 * Added meta-misc and meta-vcs-identifier to the `fwup.conf`

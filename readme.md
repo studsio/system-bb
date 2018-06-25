@@ -1,4 +1,4 @@
-# Studs System -- BeagleBone Black
+# Studs System -- BeagleBone based boards
 
 TODO
 

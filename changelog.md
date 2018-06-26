@@ -4,7 +4,7 @@
 * Convert system name to `bb` to reflect broader BeagleBone support
 * Firmware updates verify that target. If the target != `bb` update fails
 * Added meta-misc and meta-vcs-identifier to the `fwup.conf`
-* Nerves toolchain v0.12.1
+* Nerves toolchain v1.0.0
 * Buildroot 2017.11
 * u-boot 2017.09
 * Linux 4.4.91 w/ RCN's patches

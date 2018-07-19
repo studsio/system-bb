@@ -1,6 +1,9 @@
 # Changelog
 
-#### Version 1.4 (working)
+#### Version 1.5 (working)
+
+#### Version 1.4 (19-Jul-2018)
+* Upstream system fixes
 
 #### Version 1.3 (25-Jun-2018)
 * Convert system name to `bb` to reflect broader BeagleBone support
